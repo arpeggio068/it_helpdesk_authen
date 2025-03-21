@@ -126,7 +126,7 @@ var gId, gUserName, gUrl, gData;
         document.getElementById("btn1").disabled = false;
         hideSpin3()        
         setTimeout(function(){
-          window.location.href = "/"
+          window.location.href = "https://arpeggio068.github.io/it_helpdesk_authen/"
         },5000)
         console.log('end load')
         
