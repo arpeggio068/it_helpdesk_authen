@@ -14,7 +14,7 @@ var gId, gUserName, gUrl, gData;
     })
     .then(data => {
       if(data.data.length > 0){   
-        gData = data.data[0]     
+        gData = data.data    
         gId = gData[0]
         gUserName = gData[1]
         $('#head1').html('ยินดีต้อนรับคุณ '+gUserName+' กรุณากดปุ่มยืนยันการใช้งาน')
